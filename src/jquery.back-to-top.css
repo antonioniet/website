@@ -1,0 +1,35 @@
+.bck {
+	position: fixed;
+	bottom: 2rem;
+	right: 1rem;
+	background: rgba(0,0,0,.10);
+	color: #fff;
+	visibility: hidden;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	text-align:center;
+	transition-property: all;
+}
+
+.bck.bck-on {visibility: visible;}
+
+.fade{opacity: 0;}
+
+.bck-on.fade{opacity: 1;}
+
+.rightToLeft {right : -30px;}
+
+.bck-on.rightToLeft{right: 1rem;}
+
+.bottomToTop {bottom: -30px;}
+
+.bck-on.bottomToTop {bottom:1rem;}
+
+.bck-leftToRight {left: -30px;}
+
+.bck-on.leftToRight {left:1rem;}
+
+.topToBottom {top: -30px;}
+
+.bck-on.topToBottom {top:1rem;}
